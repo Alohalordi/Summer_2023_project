@@ -5,7 +5,7 @@ from scipy.interpolate import interp1d, RegularGridInterpolator
 
 #read csv file
 df2 = pd.read_csv('Formatted_Field_Vectors_CSV')
-dataframe2 = df.to_numpy()
+dataframe2 = df2.to_numpy()
 
 #frame the data
 XC = dataframe2[:,0]
