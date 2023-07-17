@@ -30,10 +30,10 @@ for i in range(len(lines_1)):
 
 print("this is lines_1")
 print(lines_1)
-pd.DataFrame(lines_1).to_csv("MoM")
+pd.DataFrame(lines_1).to_csv("MoM_1")
 
 #print("this is the streamline array")
-dt = pd.read_csv('MoM')
+dt = pd.read_csv('MoM_1')
 df = pd.DataFrame(data=dt)
 data = df.to_numpy()
 data = np.delete(data, 0, axis= 1)
@@ -353,7 +353,7 @@ print(Execution_time)
 #todo: plot is broken
 #print(A)
 
-dt = pd.read_csv('MoM')
+dt = pd.read_csv('MoM_1')
 df = pd.DataFrame(data=dt)
 data = df.to_numpy()
 data = np.delete(data,0,1)
