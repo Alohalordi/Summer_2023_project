@@ -72,7 +72,7 @@ num_slice = 39   #has to be in the range of the resolution in z direction
 #Saving 
 proceed = True
 # csvfilename='For_our_6final_trickoutputCSV.csv'
-header= ("X, Y, u, v, rho       # Resolution augmented x5 in de x and y directions")
+header= ("X, Y, u, v, rho       # Resolution augmented x5 in the x and y directions")
 
 #==============================================================================================================================
 #==============================================================================================================================
